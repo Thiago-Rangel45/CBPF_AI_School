@@ -1,23 +1,51 @@
-# CBPF_AI_school
+# 🧠 CBPF AI School - Curso de Machine Learning
 
-https://jupyterhub.inct-cern.cbpf.br
+Bem-vindo ao repositório de materiais e notebooks do curso de **Machine Learning**, ministrado pelo **Prof. Rafael Coutinho** no **Centro Brasileiro de Pesquisas Físicas (CBPF)**.
 
-## Lista de exercisios e soluções
+Este repositório serve como um espelho e guia de estudos para as aulas práticas e teóricas abordadas durante o curso.
 
-import os, numpy as np, pandas as pd
-import matplotlib.pyplot as plt
+---
 
-```python
-import os, numpy as np, pandas as pd
-import matplotlib.pyplot as plt
+## 🔗 Links Importantes
 
-from sklearn.model_selection import train_test_split, learning_curve, StratifiedKFold, GridSearchCV, cross_val_score
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
-from sklearn.metrics import (roc_curve, roc_auc_score, confusion_matrix, classification_report,
-                             accuracy_score, ConfusionMatrixDisplay)
-from sklearn.feature_selection import SelectFromModel
-from sklearn.model_selection import learning_curve, StratifiedKFold
+| Recurso | Descrição | Link |
+| :--- | :--- | :--- |
+| **Repositório Original** | Fonte oficial dos arquivos (GitLab CERN) | [Acessar GitLab](https://gitlab.cern.ch/rsilvaco/cbpf_ai_school) |
+| **Ambiente de Execução** | JupyterHub do INCT-CERN/CBPF | [Acessar JupyterHub](https://jupyterhub.inct-cern.cbpf.br) |
 
-from sklearn.metrics import roc_curve, roc_auc_score
-```
+---
+## 📚 Conteúdo Programático
+
+Abaixo está a lista de tópicos e notebooks abordados neste curso:
+
+* **Aula 01 - Análise Exploratória e Regressão:**
+    * Exploração de dados com Pandas e Matplotlib.
+    * Regressão Linear, Ridge e Lasso.
+    * Estudo de *overfitting* e curvas de aprendizado.
+    * *Notebook: `Exercise1_LHCb_Sols_rev.ipynb`*
+
+* **Aula 02 - Classificação e Árvores de Decisão:**
+    * Classificação binária (Sinal vs. Ruído).
+    * Implementação de cortes manuais e Árvores de Decisão.
+    * Introdução a *Boosted Decision Trees* (XGBoost).
+    * *Notebooks: `Exercise2_LHCb_Sols_partial.ipynb`, `Exercise2_LHCb_Sols-10.ipynb`*
+
+* **Aula 03 - Ajuste de Modelos e Estatística (zfit):**
+    * Ajuste de distribuições de massa com a biblioteca `zfit`.
+    * Modelagem de Sinal (Gaussiana) e Fundo (Exponencial).
+    * Técnicas de separação estatística (*sWeights*).
+    * *Notebook: `Exercise3_LHCb_Sols.ipynb`*
+
+* **Aula 04 - Redes Neurais e Deep Learning:**
+    * Construção de Redes Neurais (DNN) com PyTorch.
+    * Treinamento, validação e funções de perda (*loss functions*).
+    * Avaliação de performance com curvas ROC e AUC.
+    * *Notebook: `Exercise4_LHCb_Sols.ipynb`*
+
+## 🚀 Como Utilizar
+
+Via JupyterHub (Recomendado)
+Para alunos com acesso à infraestrutura do CBPF:
+1. Acesse o [JupyterHub INCT-CERN](https://jupyterhub.inct-cern.cbpf.br).
+2. Faça o login com suas credenciais.
+3. Clone este repositório ou faça o upload dos notebooks para sua área de trabalho.
