@@ -1,4 +1,4 @@
-# 🧠 CBPF AI School - Curso de Machine Learning
+# CBPF AI School - Curso de Machine Learning
 
 Bem-vindo ao repositório de materiais e notebooks do curso de **Machine Learning**, ministrado pelo **Prof. Rafael Coutinho** no **Centro Brasileiro de Pesquisas Físicas (CBPF)**.
 
@@ -6,7 +6,7 @@ Este repositório serve como um espelho e guia de estudos para as aulas prática
 
 ---
 
-## 🔗 Links Importantes
+## Links Importantes
 
 | Recurso | Descrição | Link |
 | :--- | :--- | :--- |
@@ -14,7 +14,7 @@ Este repositório serve como um espelho e guia de estudos para as aulas prática
 | **Ambiente de Execução** | JupyterHub do INCT-CERN/CBPF | [Acessar JupyterHub](https://jupyterhub.inct-cern.cbpf.br) |
 
 ---
-## 📚 Conteúdo Programático
+## Conteúdo Programático
 
 Abaixo está a lista de tópicos e notebooks abordados neste curso:
 
@@ -42,7 +42,7 @@ Abaixo está a lista de tópicos e notebooks abordados neste curso:
     * Avaliação de performance com curvas ROC e AUC.
     * *Notebook: `Exercise4_LHCb_Sols.ipynb`*
 
-## 🚀 Como Utilizar
+## Como Utilizar
 
 Via JupyterHub (Recomendado)
 Para alunos com acesso à infraestrutura do CBPF:
